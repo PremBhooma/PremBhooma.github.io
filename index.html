@@ -9,8 +9,7 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
         </script>
     <script src="https://kit.fontawesome.com/c3011d6d48.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-    </script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar.css" />
     <!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js" /> -->
@@ -194,12 +193,7 @@
         // or enable responsive functionality:
         GitHubCalendar(".calendar", "PremBhooma", { responsive: true });
 
-        // Use a proxy
-        GitHubCalendar(".calendar", "PremBhooma", {
-            proxy(PremBhooma) {
-                return fetch(`https://your-proxy.com/github?user=${PremBhooma}`)
-            }
-        }).then(r => r.text())
+        
     </script>
 
 </body>
