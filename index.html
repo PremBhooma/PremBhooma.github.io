@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="style/bootstrap/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style/style.css">
     <title>Portfolie</title>
 </head>
 
 <body>
 
+    
 
     <!-- BootStrap -->
-    <navbar id="nav-menu">
-        <nav class="navbar navbar-expand-lg bg-dark bg-gradient fixed-top">
+    <navbar id="nav-menu"  class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
             <div class="container-fluid">
                 <a class="navbar-brand text-white" href="#">Prem Bhooma</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,41 +46,55 @@
                         </li>
                     </ul>
                     <li class="d-flex">
-                        <a class="nav-link resume text-white" id="resume-link-1" href="path/to/resume.pdf" target="_blank" download>Resume</a>
+                        <a class="nav-link resume text-white" id="resume-link-1" href="path/to/resume.pdf"
+                            target="_blank" download>Resume</a>
                     </li>
                 </div>
             </div>
         </nav>
     </navbar>
-    
 
-
-
-
-    <!-- Navbar -->
-    <!-- <nav id="nav-menu">
-        <ul>
-            <li><a class="nav-link home" href="#home">Home</a></li>
-            <li><a class="nav-link about" href="#about">About</a></li>
-            <li><a class="nav-link skills" href="#skills">Skills</a></li>
-            <li><a class="nav-link projects" href="#projects">Projects</a></li>
-            <li><a class="nav-link contact" href="#contact">Contact</a></li>
-            <li><a class="nav-link resume" id="resume-link-1" href="path/to/resume.pdf" target="_blank"
-                    download>Resume</a></li>
-        </ul>
-    </nav> -->
 
     <!-- Home Section -->
-    <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <img class="home-img" src="path/to/professional_photo.jpg" alt="Professional Photo">
+    <section id="home" >
+        <!-- <h1>Welcome to My Portfolio</h1>
+        <img class="home-img" src="path/to/professional_photo.jpg" alt="Professional Photo"> -->
+        <div>
+            <h1>Hi, I'm Bhooma Prem Sagar</h1>
+            <p>
+                As an aspiring Full Stack Web developer, I thoroughly enjoy coding and solving problems. I find immense
+                satisfaction in the impact it creates on the world. My strongest skill is creativity, which greatly aids
+                me in web design. Leveraging the MERN stack, I have successfully developed numerous end-to-end website
+                clones.
+            </p>
+            <div>
+                <button>Download Resume</button>
+                <button>View Resume</button>
+            </div>
+
+        </div>
+        <div>
+            <img class="home-img" src="https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?w=740&t=st=1687967103~exp=1687967703~hmac=8ca6eaf650992ac0ac7d2264d7eb959567606fe27d4815c277edc5a99e61fa75" alt="AnimeDeveloper">
+        </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about section">
-        <h2>About Me</h2>
+        <!-- <h2>About Me</h2>
         <p id="user-detail-name">Your Name</p>
-        <p id="user-detail-intro">Formal introduction text goes here...</p>
+        <p id="user-detail-intro">Formal introduction text goes here...</p> -->
+        <div>
+            <img src="https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?w=740&t=st=1687967103~exp=1687967703~hmac=8ca6eaf650992ac0ac7d2264d7eb959567606fe27d4815c277edc5a99e61fa75" alt="AnimeDeveloper">
+        </div>
+        <div>
+            <h2>About Me</h2>
+            <p id="user-detail-intro">Hello! I'm Bhooma Prem Sagar - Web Developer. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, React, NodeJS, MangoDB. Strong background in management and leadership.</p>
+            <p id="user-detail-name"><Span>Name: </Span> Bhooma Prem Sagar</p>
+            <p><Span>Date of Birth: </Span> 19 October 1997</p>
+            <p><Span>NATIONALITY: </Span> Citizen Of India</p>
+            <p><Span>PHONE: </Span> 9177881213</p>
+            <p><Span>E-MAIL: </Span> bhoomasagar1213@gmail.com</p>
+        </div>
     </section>
 
     <!-- Skills Section -->
@@ -108,6 +125,22 @@
         <div class="project-card">
             <img src="path/to/project2.png" alt="Project 2">
             <h3 class="project-title">Project 2</h3>
+            <p class="project-description">Project 2 description goes here...</p>
+            <p class="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</p>
+            <a class="project-github-link" href="https://github.com/project2" target="_blank">GitHub Repository</a>
+            <a class="project-deployed-link" href="https://project2-demo.com" target="_blank">Deployed Link</a>
+        </div>
+        <div class="project-card">
+            <img src="path/to/project2.png" alt="Project 2">
+            <h3 class="project-title">Project 3</h3>
+            <p class="project-description">Project 2 description goes here...</p>
+            <p class="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</p>
+            <a class="project-github-link" href="https://github.com/project2" target="_blank">GitHub Repository</a>
+            <a class="project-deployed-link" href="https://project2-demo.com" target="_blank">Deployed Link</a>
+        </div>
+        <div class="project-card">
+            <img src="path/to/project2.png" alt="Project 2">
+            <h3 class="project-title">Project 4</h3>
             <p class="project-description">Project 2 description goes here...</p>
             <p class="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</p>
             <a class="project-github-link" href="https://github.com/project2" target="_blank">GitHub Repository</a>

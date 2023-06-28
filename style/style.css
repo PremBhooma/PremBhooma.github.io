@@ -1,0 +1,42 @@
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: 40px auto;
+
+}
+
+
+#home > div:nth-child(2){
+    width: 70%;
+    margin: auto;
+}
+
+#home > div:nth-child(2) > img{
+    width: 100%;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+#about > div:nth-child(1){
+    width: 40%;
+    margin: auto;
+}
+
+#about > div:nth-child(2){
+    width: 40%;
+    margin: auto;
+}
+
+#about > div:nth-child(1) > img{
+    width: 100%;
+}
