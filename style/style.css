@@ -40,3 +40,23 @@
 #about > div:nth-child(1) > img{
     width: 100%;
 }
+
+
+/* Skills */
+
+.skills-parent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+#skills> h2{
+   text-align: center;
+}
+
+.skills-parent > div{
+    border: 1px solid black;
+}
