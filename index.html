@@ -6,6 +6,80 @@
     <title>Portfolie</title>
 </head>
 <body>
-    <h1>Prem</h1>
+    <!-- Navbar -->
+  <nav id="nav-menu">
+    <ul>
+      <li><a class="nav-link home" href="#home">Home</a></li>
+      <li><a class="nav-link about" href="#about">About</a></li>
+      <li><a class="nav-link skills" href="#skills">Skills</a></li>
+      <li><a class="nav-link projects" href="#projects">Projects</a></li>
+      <li><a class="nav-link contact" href="#contact">Contact</a></li>
+      <li><a class="nav-link resume" id="resume-link-1" href="path/to/resume.pdf" target="_blank" download>Resume</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <img class="home-img" src="path/to/professional_photo.jpg" alt="Professional Photo">
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <h2>About Me</h2>
+    <p id="user-detail-name">Your Name</p>
+    <p id="user-detail-intro">Formal introduction text goes here...</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-card">
+      <img class="skills-card-img" src="path/to/skill1.png" alt="Skill 1">
+      <p class="skills-card-name">Skill 1</p>
+    </div>
+    <div class="skills-card">
+      <img class="skills-card-img" src="path/to/skill2.png" alt="Skill 2">
+      <p class="skills-card-name">Skill 2</p>
+    </div>
+    <!-- Add more skills cards as needed -->
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <img src="path/to/project1.png" alt="Project 1">
+      <h3 class="project-title">Project 1</h3>
+      <p class="project-description">Project 1 description goes here...</p>
+      <p class="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</p>
+      <a class="project-github-link" href="https://github.com/project1" target="_blank">GitHub Repository</a>
+      <a class="project-deployed-link" href="https://project1-demo.com" target="_blank">Deployed Link</a>
+    </div>
+    <div class="project-card">
+      <img src="path/to/project2.png" alt="Project 2">
+      <h3 class="project-title">Project 2</h3>
+      <p class="project-description">Project 2 description goes here...</p>
+      <p class="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</p>
+      <a class="project-github-link" href="https://github.com/project2" target="_blank">GitHub Repository</a>
+      <a class="project-deployed-link" href="https://project2-demo.com" target="_blank">Deployed Link</a>
+    </div>
+    <!-- Add more project cards as needed -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p id="contact-github">GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+    <p id="contact-linkedin">LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your Name</a></p>
+    <p id="contact-phone">Phone: 123-456-7890</p>
+    <p id="contact-email">Email: youremail@example.com</p>
+  </section>
+
+  <!-- JavaScript -->
+  <script>
+    // JavaScript logic goes here
+  </script>
+
 </body>
 </html>
