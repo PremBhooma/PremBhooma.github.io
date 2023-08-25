@@ -18,7 +18,7 @@ As you explore my portfolio, envision the possibilities. Imagine how my skills c
 
 Let's turn ideas into reality. Browse my portfolio, and let's connect to discuss how we can create exceptional web experiences together.
 
-Feel free to reach out at your.email@example.com or connect with me on LinkedIn.
+Feel free to reach out at Portfolio - https://prembhooma.github.io/ or connect with me on LinkedIn ( https://www.linkedin.com/in/prem-bhooma-8bb225220/ )
 
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=PremBhooma)](https://git.io/streak-stats)
